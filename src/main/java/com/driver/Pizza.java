@@ -49,6 +49,11 @@ public class Pizza {
         if (extraToppingsPrice > 0) bill += "Extra Toppings Added: " + this.extraToppingsPrice + "\n";
         if (paperBagPrice > 0) bill += "Paperbag Added: " + this.paperBagPrice + "\n";
         bill += "Total Price: " + price;
+
+        extraCheesePrice = 0;
+        extraToppingsPrice = 0;
+        paperBagPrice = 0;
+
         return this.bill;
     }
 }
