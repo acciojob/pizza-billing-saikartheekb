@@ -50,10 +50,6 @@ public class Pizza {
         if (paperBagPrice > 0) bill += "Paperbag Added: " + this.paperBagPrice + "\n";
         bill += "Total Price: " + price;
 
-        extraCheesePrice = 0;
-        extraToppingsPrice = 0;
-        paperBagPrice = 0;
-
         return this.bill;
     }
 }
