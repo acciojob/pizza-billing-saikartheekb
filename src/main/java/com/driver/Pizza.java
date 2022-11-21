@@ -23,16 +23,16 @@ public class Pizza {
     }
 
     public void addExtraCheese(){
-        this.extraCheesePrice += 80;
+        this.extraCheesePrice = 80;
     }
 
     public void addExtraToppings(){
         // your code goes here
         if(this.isVeg){
-            this.extraToppingsPrice += 70;
+            this.extraToppingsPrice = 70;
         }
         else {
-            this.extraToppingsPrice += 120;
+            this.extraToppingsPrice = 120;
         }
     }
 
